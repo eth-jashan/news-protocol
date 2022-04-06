@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
 import "hardhat/console.sol";
 
-contract Marketplace is ReentrancyGuard {
+contract DappNewsToken is ReentrancyGuard {
 
     // Variables
     address payable public immutable feeAccount; // the account that receives fees
